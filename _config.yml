@@ -1,4 +1,4 @@
-remote_theme: jekyller/sustain
+# remote_theme: jekyller/sustain
 # top level stuff you probably don't need to touch
 highlighter: rouge
 markdown: kramdown
