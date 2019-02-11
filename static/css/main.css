@@ -142,6 +142,9 @@ body {
 .avatar {
   padding-top: 5%;
 }
+.avatar img {
+  max-height: 250px;
+}
 .blog-post{
   padding-top: 15px;
 }
