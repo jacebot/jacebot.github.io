@@ -13,6 +13,7 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://jacebot.github.io/
+baseurl: /
 title: Jace Whitten
 author: Jace Whitten
 description: Personal blog and resume
