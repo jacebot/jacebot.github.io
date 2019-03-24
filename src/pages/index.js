@@ -11,7 +11,6 @@ import Wrapper from '../components/wrapper'
 import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
-import Repositories from '../components/repositories'
 
 const Separator = styled.hr`
   margin-top: 24px;
