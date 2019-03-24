@@ -94,8 +94,8 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/jacewhitten",
     github: "https://github.com/jacebot",
   },
-  siteUrl: 'https://jacebot.github.io/cv',
-  pathPrefix: '/cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://jacebot.github.io/',
+  pathPrefix: '/', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-131359385-1',
   background_color: '#ffffff',
