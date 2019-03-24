@@ -5,34 +5,32 @@ module.exports = {
   twitterUsername: 'jacewhitten',
   githubUsername: 'jacebot',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Frontend Developer, and passionate about what the projects I am involved with.<br />
-    In 2008 I became interested in web development through necessity. Now 10+ years later I lead teams, build amazing apps and continue to hone my craft.<br/>
-    In 2014, I closed my web development firm to create SaaS model applications for the Cannabis industry. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, React.</strong>`,
+  authorDescription: `<p>Frontend Developer, out-of-the-box passionate about what the projects I am involved with.</p>
+    <p>I currently work as a Sr. Lead Frontend Developer with a small team deploying an e-commerce solution written in <strong>React.</strong></p>`,
   skills: [
     {
       name: 'HTML',
       level: 90
     },
     {
-      name: 'CSS',
-      level: 80
+      name: 'CSS/SASS/SCSS/LESS',
+      level: 90
     },
     {
       name: 'Javascript',
-      level: 70
+      level: 90
     },
     {
-      name: 'React',
-      level: 70
+      name: 'React/Redux',
+      level: 80
     },
     {
       name: 'Node / Python / Ruby',
-      level: 60
+      level: 70
     },
     {
       name: 'Database',
-      level: 50
+      level: 60
     },
     {
       name: 'Git',
@@ -41,33 +39,53 @@ module.exports = {
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: "MainStem",
       begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
+        month: 'Dec',
         year: '2016'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
+      duration: "Current",
+      occupation: "Sr. Lead Frontend developer",
+      description: "Making the 'Amazon' of the cannabis industry."
+  
+    },{
+      company: "Full Spectrum Laser",
       begin: {
-        month: 'set',
+        month: 'Feb',
+        year: '2016'
+      },
+      duration: "1 yr",
+      occupation: "Lead Frontend developer",
+      description: "Helped create the partner product for the Dremel Laser cutter IoT device. Took concept jpegs to working app in less than a year. A majority of this work was autonomous."
+  
+    }, {
+      company: "GreenMed.us",
+      begin: {
+        month: 'Jan',
+        year: '2014'
+      },
+      duration: "5 mo",
+      occupation: "Co-founder/ Frontend developer",
+      description: "I closed my web development firm to create SaaS model applications for the Cannabis industry. Would later be acquired by a company in Vancouver,Wa"
+  
+    }, {
+      company: "Jovian Business",
+      begin: {
+        month: 'Dec',
         year: '2012'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '2 yr',
+      occupation: "Co-owner/ Co-hustler",
+      description: "Co-founded a web firm with 2 other colleagues."
+    }, {
+      company: "Accounts.com",
+      begin: {
+        month: 'June',
+        year: '2008'
+      },
+      duration: '2 yr & 6 mo',
+      occupation: "Pioneer/ Graphic Design",
+      description: "Flipping MMORPG/WoW accounts up until about 2008 I became interested in web development through necessity. Help created what we now know as loot boxes and virtual goods."
   
     },
     /* ... */

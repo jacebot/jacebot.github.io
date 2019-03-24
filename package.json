@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-cv",
   "private": true,
-  "description": "A simple starter to get up and developing your digital curriculum with GatsbyJS",
+  "description": "A digital curriculum written with GatsbyJS",
   "version": "0.0.1",
-  "author": "Francisco Santos <yoshi.df@gmail.com>",
+  "author": "Jace Whitten <jace.whitten@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.53",
