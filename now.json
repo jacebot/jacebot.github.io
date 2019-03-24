@@ -8,7 +8,6 @@
       "config": { "distDir": "public" }
     }
   ],
-  "alias": ["jacebot.github.io"],
   "routes": [
     {
       "src": "/(.*)",
