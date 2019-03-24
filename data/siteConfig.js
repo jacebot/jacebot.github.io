@@ -5,8 +5,6 @@ module.exports = {
   twitterUsername: 'jacewhitten',
   githubUsername: 'jacebot',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `<p>Frontend Developer, out-of-the-box passionate about what the projects I am involved with.</p>
-    <p>I currently work as a Sr. Lead Frontend Developer with a small team deploying an e-commerce solution written in <strong>React.</strong></p>`,
   skills: [
     {
       name: 'HTML',

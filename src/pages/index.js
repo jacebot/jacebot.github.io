@@ -11,6 +11,7 @@ import Wrapper from '../components/wrapper'
 import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
+import Repositories from '../components/repositories'
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -59,7 +60,7 @@ class Home extends React.Component {
             </Row>
             <Row>
               <Col xs={4} sm={4}>
-                <About title='About' text={siteConfig.authorDescription}/>
+                <About title='About'/>
               </Col>
               <Col xs={4} sm={4}>
                 <Skills title='Skills' skills={siteConfig.skills} />
@@ -67,6 +68,8 @@ class Home extends React.Component {
             </Row>
             <Separator />
             <Timeline />
+            <Separator />
+            <Repositories />
           </Container>
         </Wrapper>
       </Layout>
