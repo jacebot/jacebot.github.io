@@ -20,7 +20,7 @@ const Separator = styled.hr`
 
 class Home extends React.Component {
   render () {
-    const title = 'Hi! I\'m Jace!'
+    const title = 'Hello, I\'m Jace.'
     return (
       <Layout location={this.props.location}>
         <SEO

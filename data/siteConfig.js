@@ -44,7 +44,7 @@ module.exports = {
       },
       duration: "Current",
       occupation: "Sr. Lead Frontend developer",
-      description: "Making the 'Amazon' of the cannabis industry."
+      description: "Making the 'Amazon' of the cannabis industry at GoMainStem.com"
   
     },{
       company: "Full Spectrum Laser",
