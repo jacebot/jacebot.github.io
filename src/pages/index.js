@@ -43,6 +43,9 @@ class Home extends React.Component {
                   alt='user avatar'
                 />
                 <div className="social">
+                  <a className="social-link sourcerer" href="https://sourcerer.io/jacebot">
+                    <img className="social-icon " src="https://sourcerer.io/icons/logo-sharing.svg" height="32px" alt="Sourcerer"/>
+                  </a>
                   {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
                     <FaGithub className="social-icon" size="32" />
                   </a>}
@@ -103,6 +106,10 @@ export default styled(Home)`
   .social-link {
     padding: 8px;
     color: #555;
+  }
+
+  .sourcerer img {
+    margin-bottom: 0;
   }
 
   a.social-link.twitter:hover {
